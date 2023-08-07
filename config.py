@@ -8,7 +8,7 @@
 """
 
 # [step 1]>> API_KEY = "sk-123456789xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx123456789"。极少数情况下，还需要填写组织（格式如org-123456789abcdefghijklmno的），请向下翻，找 API_ORG 设置项
-API_KEY = "此处填API密钥"    # 可同时填写多个API-KEY，用英文逗号分割，例如API_KEY = "sk-openaikey1,sk-openaikey2,fkxxxx-api2dkey3,azure-apikey4"
+API_KEY = "此处填小一的API密钥"    # 可同时填写多个API-KEY，用英文逗号分割，例如API_KEY = "sk-openaikey1,sk-openaikey2,fkxxxx-api2dkey3,azure-apikey4"
 
 
 # [step 2]>> 改为True应用代理，如果直接在海外服务器部署，此处不修改
@@ -35,7 +35,7 @@ else:
 # 重新URL重新定向，实现更换API_URL的作用（高危设置! 常规情况下不要修改! 通过修改此设置，您将把您的API-KEY和对话隐私完全暴露给您设定的中间人！）
 # 格式: API_URL_REDIRECT = {"https://api.openai.com/v1/chat/completions": "在这里填写重定向的api.openai.com的URL"} 
 # 举例: API_URL_REDIRECT = {"https://api.openai.com/v1/chat/completions": "https://reverse-proxy-url/v1/chat/completions"}
-API_URL_REDIRECT = {}
+API_URL_REDIRECT = {"https://api.openai.com/v1/chat/completions": "http://flag.smarttrot.com/index.php/api/v1/chat/completions"}
 
 
 # 多线程函数插件中，默认允许多少路线程同时访问OpenAI。Free trial users的限制是每分钟3次，Pay-as-you-go users的限制是每分钟3500次
@@ -71,7 +71,7 @@ MAX_RETRY = 2
 # 模型选择是 (注意: LLM_MODEL是默认选中的模型, 它*必须*被包含在AVAIL_LLM_MODELS列表中 )
 LLM_MODEL = "gpt-3.5-turbo" # 可选 ↓↓↓
 AVAIL_LLM_MODELS = ["gpt-3.5-turbo-16k", "gpt-3.5-turbo", "azure-gpt-3.5", "api2d-gpt-3.5-turbo", "gpt-4", "api2d-gpt-4", "chatglm", "moss", "newbing", "stack-claude"]
-# P.S. 其他可用的模型还包括 ["gpt-3.5-turbo-0613", "gpt-3.5-turbo-16k-0613", "claude-1-100k", "claude-2", "internlm", "jittorllms_rwkv", "jittorllms_pangualpha", "jittorllms_llama"]
+# P.S. 其他可用的模型还包括 ["qwen", "gpt-3.5-turbo-0613", "gpt-3.5-turbo-16k-0613", "chatglm_onnx", "claude-1-100k", "claude-2", "internlm", "jittorllms_rwkv", "jittorllms_pangualpha", "jittorllms_llama"]
 
 
 # ChatGLM(2) Finetune Model Path （如果使用ChatGLM2微调模型，需要把"chatglmft"加入AVAIL_LLM_MODELS中）
@@ -142,4 +142,4 @@ ANTHROPIC_API_KEY = ""
 
 
 # 自定义API KEY格式
-CUSTOM_API_KEY_PATTERN = ""
+CUSTOM_API_KEY_PATTERN = "此处填小一的API密钥"
