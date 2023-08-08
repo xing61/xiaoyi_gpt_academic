@@ -1,5 +1,5 @@
-底层大模型使用openai的，接口使用小一机器人：https://github.com/xing61/xiaoyi-robot
-配置相应的key和base_url即可
+底层大模型使用openai的，接口使用小一机器人：https://github.com/xing61/xiaoyi-robot <br>
+配置相应的key和base_url即可<br>
 
 > **Note**
 >
