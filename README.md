@@ -14,12 +14,13 @@
 - **项目地址**   
 1、项目官方网址：http://gptac.zhizengzeng.com:51666/     
 2、微信交流群（如果你也对本项目感兴趣，欢迎加入群聊参与讨论交流）：    
-![微信截图_20231103235802](https://github.com/xing61/zzz_gpt_academic/assets/38256442/33202f06-f282-4203-9ae2-c4cae92abb11)
+![智增增AI交流群1](https://github.com/xing61/zzz_gpt_academic/assets/38256442/466143a2-90b8-4646-b9f8-eceffd69ea03)
+
 
 - **使用方法**    
 第1步：获取智增增的key。手机号登录即可获取：http://gpt.zhizengzeng.com/#/login  <br>
 第2步：只需要先在输入框输入智增增后台获取的key即可，如下图所示，之后就可以正常使用了：<br>
-![智增增AI交流群1](https://github.com/xing61/zzz_gpt_academic/assets/38256442/c028a732-8418-4d48-8c4c-72ef2a58bde3)
+![微信截图_20231103233409](https://github.com/xing61/zzz_gpt_academic/assets/38256442/f289070e-15b0-46d0-85e4-4c60cb8a4b5d)
 
 
 ### I：参考
