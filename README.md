@@ -19,7 +19,8 @@
 - **使用方法**    
 第1步：获取智增增的key。手机号登录即可获取：http://gpt.zhizengzeng.com/#/login  <br>
 第2步：只需要先在输入框输入智增增后台获取的key即可，如下图所示，之后就可以正常使用了：<br>
-![微信截图_20231103233409](https://github.com/xing61/zzz_gpt_academic/assets/38256442/f289070e-15b0-46d0-85e4-4c60cb8a4b5d)
+![智增增AI交流群1](https://github.com/xing61/zzz_gpt_academic/assets/38256442/c028a732-8418-4d48-8c4c-72ef2a58bde3)
+
 
 ### I：参考
 
